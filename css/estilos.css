@@ -1,0 +1,23 @@
+/* Para que se puedan ubicar logo y menú a la izquierda */
+#logo {
+    float: left;
+    margin-right: 1%;
+}
+nav{
+    float:left;
+    margin-right:1%;
+}
+
+header h1 {
+    text-align: center;
+    color: red;
+}
+/* Quitar puntos al menú */
+nav ul {
+    list-style-type: none;
+}
+
+/* footer a la derecha */
+footer {
+    text-align: right;
+}
