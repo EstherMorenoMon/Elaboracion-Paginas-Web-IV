@@ -1,9 +1,23 @@
+header {
+    width: 100%;
+    height: 100px;
+}
+
+main {
+    width: 100%;
+    height: 800px;
+}
+
 /* Para que se puedan ubicar logo y menú a la izquierda */
 #logo {
+    width: 150px;
+    height: 100%;
     float: left;
     margin-right: 1%;
 }
-nav{
+nav {
+    width: 200px;
+    height: 100%;
     float:left;
     margin-right:1%;
 }
