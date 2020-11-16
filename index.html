@@ -33,10 +33,6 @@
                 </ul>
             </article>
             <article>
-                <p>En un formulario nos podemos encontrar con muchos elementos.</p>
-                <img src="img/elementosFormularios.png">
-            </article>
-            <article>
                 <p>El más importante de todo es el elemento padre, la etiqueta &lt;form&gt; que va a contener en su interior todos los elementos que conformen nuestros formularios.
                     Esta etiqueta puede tener varios atributos de entre los que destacamos:
                 </p>
@@ -44,29 +40,26 @@
                     <li><strong>method</strong> que indica cómo se va a pasar la información al destino. Puede ser por GET (se ve la información en la barra del navegador) y por POST ( no se ve y es la opción por defecto).</li>
                     <li><strong>action</strong> que indica el destino de nuestros datos. Normalmente será una URL o dirección de Internet. Existen más opciones. </li>
             </article>
-
+            <hr />
             <article>
                 <h2>Elementos de formularios</h2>
-                <p>Las etiquetas básicas son &lt;form&gt;, &lt;label&gt; &lt;input&gt;...</p>
-                <form>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" />
-                    <label for="clave">Clave:</label>
-                    <input type="password" name="clave" />
-                    <p>
-                    <label for="provincia">Provincia:</label>
-                    <select name="provincia">
-                        <optgroup label="Extremadura">
-                            <option value="C" selected>Cáceres</option>
-                            <option value="B">Badajoz</option>
-                        </optgroup>
-                    </select>
-                    </p>
-                    <p>
-                        <input type="submit" value="Enviar" />
-                    </p>             
-                </form>
-            </article>
+                <p>Las etiquetas básicas son &lt;form&gt;, &lt;label&gt; &lt;input&gt;... porque nos podemos encontrar muchos elementos</p>
+                <img src="img/elementosFormularios.png" width="500" height="200">
+            </article>             
+            <hr />
+            <form>
+                <h2>Ejemplo de Formulario con <stron>&lt;datalist&gt;<strong></strong></h2>
+                <input list="editor">
+                    <label for="editor">Editor preferido</label>
+                    <datalist id="editor">
+                        <option value="Atom">
+                        <option value="NotePad++">
+                        <option value="VsCode">
+                        <option value="Sublime">
+                        <option value="Brackets">
+                    </datalist>
+                <input type="submit" value="Elegir">
+        </form>
         </section>
     </main>
     <footer>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario para enviar comentarios</title>
+    <meta name="author" content="Esther Moreno" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="../img/logoIES.jpg" width="150" height="50" />
+      </div>
+      <h1>Ejemplo de formularios</h1>
+      <br />
+    </header>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="inscripcion.html">Inscripción</a></li>
+        </ul>
+      </nav>
+      <section>
+        <article>
+          <form method="POST" action="destinarion.html">
+            <fieldset>
+              <legend>Datos a enviar.</legend>
+              <p>
+                <button type="button" disabled>
+                  <img width="100px" src="../img/logoIES.jpg" />
+                </button>
+              </p>
+              <p>
+                <label for="nombre">Nombre:</label>
+                <input
+                  type="text"
+                  name="nombre"
+                  placeholder="Inserta Nombre"
+                  required
+                />
+              </p>
+              <p>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" value="Pérez" readonly />
+              </p>
+
+              <p>
+                <label for="provincia">Provincia:</label>
+                <select name="provincia">
+                  <optgroup label="Extremadura">
+                    <option value="C" selected>Cáceres</option>
+                    <option value="B">Badajoz</option>
+                  </optgroup>
+                </select>
+              </p>
+              <p>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" cols="100" rows="10">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptate corrupti ut earum, aliquam sint amet repellendus, vitae placeat repellat quis, ipsa qui. Velit placeat reiciendis tempore autem nostrum eaque?
+                    </textarea
+                >
+              </p>
+              <div>
+                <label for="archivo">Adjuntar un archivo</label>
+                <input type="file" id="archivo">
+              </div>
+              <p>
+                <input type="submit" value="Enviar" />
+              </p>
+            </fieldset>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a href="https://www.educa2.madrid.org/web/centro.ies.luisbraille.coslada"
+        ><address>IES LuisBraille</address></a
+      >
+    </footer>
+  </body>
+</html>
