@@ -1,3 +1,8 @@
+body{
+    background-image: url('../img/fondo_alumno.png');
+    background-repeat: repeat;
+    background-color: rgb(238, 238, 238);
+} 
 header {
     width: 100%;
     height: 100px;
@@ -37,10 +42,30 @@ footer {
 }
 
 /* Títulos de las distintas páginas en artículos*/
-article h1 {
+article h2 {
     text-align: center;
 }
 
+/* Espacio entre etiquetas y controles de entrada */
+input {
+    padding: 0.5%;
+    margin: 1px 1px 1px 1px;
+}
+
+/* para login.html */
+#credenciales {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid red;
+}
+#credenciales legend{
+    border: 2px dashed red;
+    color: red;
+    background-color: whitesmoke;
+}
+
+
+/* para inscripcion.html */
 #datosP {
     background-color: #BBBBBB;
 }
@@ -69,3 +94,4 @@ article h1 {
     border: 1px solid black; 
     background-color: white;
 }
+
