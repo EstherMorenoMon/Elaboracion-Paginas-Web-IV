@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Login</title>
+    <meta name="author" content="Esther Moreno" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo"><img src="../img/logoIES.jpg" width="150" height="50" /></div>
+      <h1>Ejemplo de formularios</h1>
+      <br />
+    </header>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="inscripcion.html">Inscripción</a></li>
+          <li><a href="comentarios.html">Comentarios</a></li>
+        </ul>
+      </nav>
+      <section>
+        <article>
+          <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" />
+            <label for="clave">Clave:</label>
+            <input type="password" name="clave" />
+            <p>
+              <label for="provincia">Provincia:</label>
+              <select name="provincia">
+                <optgroup label="Extremadura">
+                  <option value="C" selected>Cáceres</option>
+                  <option value="B">Badajoz</option>
+                </optgroup>
+              </select>
+            </p>
+            <p>
+              <input type="submit" value="Enviar" />
+            </p>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a href="https://www.educa2.madrid.org/web/centro.ies.luisbraille.coslada"
+        ><address>IES LuisBraille</address></a
+      >
+    </footer>
+  </body>
+</html>
