@@ -45,7 +45,6 @@ footer {
 article h2 {
     text-align: center;
 }
-
 /* Espacio entre etiquetas y controles de entrada */
 input {
     padding: 0.5%;
@@ -54,7 +53,7 @@ input {
 
 /* para login.html */
 #credenciales {
-    background-color: blueviolet;
+    background-color: violet;
     color: white;
     border: 1px solid red;
 }
@@ -63,7 +62,12 @@ input {
     color: red;
     background-color: whitesmoke;
 }
+/* Selector en función del valor de un atributo */
+#credenciales input[type="submit"] {
+    color: whitesmoke;
+    background-color: red;
 
+}
 
 /* para inscripcion.html */
 #datosP {
